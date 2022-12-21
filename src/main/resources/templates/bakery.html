@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bakery Item</title>
+</head>
+<body>
+<h1>Bakery Item</h1>
+<p>Name: <span th:text="${bakery.name}"></span></p>
+<p>Price: <span th:text="${bakery.price != null ? bakery.price : 'N/A'}"></span></p>
+<p>Description: <span th:text="${bakery.description != null ? bakery.description : 'N/A'}"></span></p>
+
+<h2>Update Bakery Item</h2>
+<form th:object="${bakery}" th:action="@{/bakeries/{id}(id=${bakery.id})}" method="post">
+  <input type="hidden" th:field="*{id}" />
+  <label for="name">Name:</label>
+  <input type="text" id="name" th:field="${bakery.name}" />
+  <br />
+  <label for="price">Price:</label>
+  <input type="text" id="price" th:field="${bakery.price}" />
+  <br />
+  <label for="description">Description:</label>
+  <input type="text" id="description" th:field="${bakery.description}" />
+  <br />
+  <input type="submit" value="Update" />
+</form>
+
+</body>
+</html>

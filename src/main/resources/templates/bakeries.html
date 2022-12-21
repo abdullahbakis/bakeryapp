@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bakery Items</title>
+</head>
+<body>
+<h1>Bakery Items</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Description</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="bakery : ${bakeries}">
+    <td th:text="${bakery.name}"></td>
+    <td th:text="${bakery.price}"></td>
+    <td th:text="${bakery.description}"></td>
+    <td><img src="data:image/jpeg;base64,${bakery.image}" alt="Bakery Image"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
