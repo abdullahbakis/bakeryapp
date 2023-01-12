@@ -28,6 +28,6 @@ Spring Boot - Framework for building web applications
 MySQL - Relational database
 Thymeleaf - Templating engine
 ## Authors
-Abdullah Bakis
+[Abdullah Bakis](https://github.com/abdullahbakis)
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
