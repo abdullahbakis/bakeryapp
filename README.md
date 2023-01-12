@@ -30,4 +30,4 @@ Thymeleaf - Templating engine
 ## Authors
 [Abdullah Bakis](https://github.com/abdullahbakis)
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/abdullahbakis/bakeryapp/blob/master/LICENCE.md) file for details.
