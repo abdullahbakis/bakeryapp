@@ -5,9 +5,9 @@ This is a web application for a bakery that allows customers to place orders for
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-*Java 8 or later
-*MySQL
-*Spring Boot CLI
+* Java 8 or later
+* MySQL
+* Spring Boot CLI
 ### Installing
 1. Clone the repository to your local machine
 ```
